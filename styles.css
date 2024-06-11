@@ -86,3 +86,14 @@ body {
 .accordion-content hr {
   padding: 1.5rem;
 }
+
+/*responsive*/
+@media screen and (min-width: 375px) and (max-width: 1440px) {
+  body {
+    background-image: url('/assets/images/background-pattern-mobile.svg');
+  }
+
+  .accordion{
+    width: 380px;
+  }
+}
